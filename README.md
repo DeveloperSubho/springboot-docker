@@ -86,9 +86,16 @@
 
 1. **mvn clean package**  
    Builds the project and packages the resulting JAR file into the target directory.
+   ![Alt text](/screenshots/MvnCleanPackage.png?raw=true "Mvn Clean Package")
 
 2. **docker build -t devsubho/springboot-docker .**  
    This command is used to build an image from a specified docker file
+   ![Alt text](/screenshots/DockerBuild.png?raw=true "Docker Build")
 
 3. **docker run -p 8081:8080 devsubho/springboot-docker**  
    This command is used to create a container from an image
+   ![Alt text](/screenshots/DockerRun.png?raw=true "Docker Run")
+
+## **Verify Application**
+
+    http://192.168.99.100:8081/docker
